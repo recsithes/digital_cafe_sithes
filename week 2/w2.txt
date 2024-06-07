@@ -1,0 +1,2 @@
+N,a,b,c,d=int(input()),int(input()),int(input()),int(input()),int(input())
+print(a%N==0,b%N==0,c%N==0,d%N==0)

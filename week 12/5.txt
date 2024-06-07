@@ -1,0 +1,12 @@
+import sys
+d={}
+for a in sys.stdin:
+    if a == "":
+        break
+    t,g=map(str.strip,a.split(","))   
+    if g not in d:
+        d[g]=[]
+    d[g].append(t)
+    
+for i in d:
+    print(i+":",", ".join(d[i]))

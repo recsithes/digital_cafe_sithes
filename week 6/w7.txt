@@ -1,0 +1,14 @@
+n=int(input())
+l=[]
+for i in range(n):
+    l.append(int(input()))
+# t=0
+# for i in range(n):
+#     t+=l[i]
+#     if t==l[-1]:
+#         print(i+1)
+#         break
+mid=n//2
+if sum(l[:mid])==sum(l[mid+1:]):
+    print(mid)
+    

@@ -1,0 +1,6 @@
+num=abs(int(input()))
+if(num<10):
+    print("-1")
+else:
+    num%=100
+    print(num//10)

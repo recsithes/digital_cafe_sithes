@@ -1,0 +1,16 @@
+a=int(input())
+d ={}
+for i in range(a):
+    sum=0    
+    v=input().split()
+    for j in range(1,len(v)):
+        sum = sum+int(v[j])
+    
+    d[v[0]] = sum
+    
+final =dict(sorted(d.items(),key=lambda x:x[1]))
+
+for k,v in  final.items():
+    print(k,v)
+
+

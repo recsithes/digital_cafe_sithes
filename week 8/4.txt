@@ -1,0 +1,12 @@
+a=input().split()
+b=input().split()
+d={}
+for i in max(a,b,key=len):
+    d[i] = a.count(i) + b.count(i)
+for i in min(b,a,key=len):
+    if i not in d:
+        d[i] = a.count(i) + b.count(i)
+# z=dict(sorted(d.ite))
+for i in d:
+    if d[i] == 1:
+        print(i,end=' ')

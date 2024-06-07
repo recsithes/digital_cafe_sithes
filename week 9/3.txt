@@ -1,0 +1,12 @@
+def differenceSum(n):
+    n=str(n)
+    j=2
+    a,b=0,0
+    for i in n:
+        if j%2==0:
+            a+=int(i)
+            j=1
+        else:
+            b+=int(i)
+            j=2
+    return abs(a-b)

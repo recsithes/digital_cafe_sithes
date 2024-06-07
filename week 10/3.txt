@@ -1,0 +1,4 @@
+li=list(map(int,input().split()))
+s=list(set(li))
+for i in s:
+    print(i,li.count(i))

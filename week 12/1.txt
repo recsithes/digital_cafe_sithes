@@ -1,0 +1,23 @@
+n=int(input())
+o=list(input().split())
+i=o.index("MARKS")
+av=0
+b=n
+#by using index
+while(n):
+    s=list(input().split())
+    av+=float(s[i])
+    n-=1
+print("{:.2f}".format(av/b))
+
+#by iterating 
+# while(n):
+#     s=list(input().split())
+#     for i in s:
+#         if len(i)==2:
+#             if int(i) <= 100:
+#                 av+=int(i)
+#     n-=1
+# print("{:.2f }".format(av/b))
+
+

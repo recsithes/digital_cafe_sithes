@@ -1,0 +1,26 @@
+m=input()
+match(m):
+    case "January":
+        print(m,"has 31 days in it.")
+    case "February":
+        print(m,"has 28 or 29 days in it.")
+    case "March":
+        print(m,"has 31 days in it.")
+    case "April":
+        print(m,"has 30 days in it.")
+    case "May":
+        print(m,"has 31 days in it.")
+    case "June":
+        print(m,"has 30 days in it.")
+    case "July":
+        print(m,"has 31 days in it.")
+    case "August":
+        print(m,"has 31 days in it.")
+    case "September":
+        print(m,"has 30 days in it.")
+    case "October":
+        print(m,"has 31 days in it.")
+    case "November":
+        print(m,"has 30 days in it.")
+    case "December":
+        print(m,"has 31 days in it.")

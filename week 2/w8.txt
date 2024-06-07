@@ -1,0 +1,3 @@
+age=int(input())
+w=int(input())
+print(age>=18 and w>40)

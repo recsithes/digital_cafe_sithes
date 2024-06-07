@@ -1,0 +1,15 @@
+n=int(input())
+li=list(map(int,input().split()))
+c=int(input())
+t=0
+while(c):
+    s,r=map(int,input().split())
+    for i in range(n):
+        if li[i] == s:
+            t+=r
+            li[i]=-1
+            break
+    c-=1
+print(t)
+            
+    

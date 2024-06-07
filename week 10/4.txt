@@ -1,0 +1,13 @@
+n=int(input())
+li=list(map(int,input().split()))
+for i in range(n):
+    if i==0:
+        if li[i]>li[i+1]:
+            print(li[i],end=' ')
+    elif i==n-1:
+        # print("ds")
+        if li[i]>li[i-1]:
+            print(li[i],end=' ')
+    else:
+        if li[i-1]<li[i] and li[i]>li[i+1]:
+            print(li[i],end=' ')

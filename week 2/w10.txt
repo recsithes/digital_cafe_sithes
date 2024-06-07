@@ -1,0 +1,7 @@
+n=int(input())
+n=n+n*0.04
+print("Balance as of end of Year 1: ${:.2f}.".format(n))
+n=n+n*0.04
+print("Balance as of end of Year 2: ${:.2f}.".format(n))
+n=n+n*0.04
+print("Balance as of end of Year 3: ${:.2f}.".format(n))

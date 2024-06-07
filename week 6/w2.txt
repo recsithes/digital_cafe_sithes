@@ -1,0 +1,19 @@
+t=int(input())
+while(t):
+    r1=0
+    n=int(input())
+    l=[]
+    for i in range(n):
+        l.append(int(input()))
+    k=int(input())
+    for i in range(n-1):
+        for j in range(i+1,n):
+            if abs(l[i]-l[j]) == k:
+                r1=1
+                break
+        if(r1==1):
+            print(r1)
+            break
+    if(r1==0):
+        print(r1)
+    t-=1

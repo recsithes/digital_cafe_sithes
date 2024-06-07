@@ -1,0 +1,8 @@
+n=int(input())
+r=[]
+a=list(map(int,input().split()))
+b=list(map(int,input().split()))
+for i in a:
+    r.append(b.index(i))
+for i in r:
+    print(i,end=' ')

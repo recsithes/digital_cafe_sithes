@@ -1,0 +1,10 @@
+try:
+    num=input()
+    num=float(num)
+    num1=input()
+    num1=float(num1)
+    print("Division result: {}\nModulo result: {:.0f}".format(num/num1,num%num1))
+except ZeroDivisionError:
+    print("Error: Cannot divide or modulo by zero.")
+except ValueError:
+    print("Error: Non-numeric input provided.")

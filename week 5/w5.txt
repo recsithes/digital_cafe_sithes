@@ -1,0 +1,9 @@
+s=input().split()
+ans=max(s,key=len)
+# ans=max(len(i) for i in s)
+# for j in s:
+#     if(ans==len(j)):
+#         print(j)
+#         break
+print(ans)
+print(len(ans))

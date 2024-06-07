@@ -1,0 +1,6 @@
+n=int(input())
+h=int(input())
+if(n/2<=h):
+    print("IN")
+else:
+    print("OUT")

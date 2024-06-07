@@ -1,0 +1,9 @@
+a=[]
+for i in range(11):
+    a.append(int(input()))
+print("ITEM to be inserted:{}".format(a[-1]))
+print("After insertion array is:")
+a.sort()
+for i in a:
+    print(i)
+# print(a)

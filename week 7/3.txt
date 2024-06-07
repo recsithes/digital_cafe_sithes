@@ -1,0 +1,11 @@
+s=input().split(" ")
+bro=input()
+# print(bro)
+# for i in range(len(bro)):
+#     for
+c=0
+for i in bro:
+    for j in s:
+        if i in j or i.upper() in j:
+            c+=1
+print(len(s)-c)

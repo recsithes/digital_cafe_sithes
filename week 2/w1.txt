@@ -1,0 +1,4 @@
+n=int(input())
+tax=n*0.05
+tip=n*0.18
+print("The tax is {:.2f} and the tip is {:.2f}, making the total {:.2f}".format(tax,tip,n+tax+tip))

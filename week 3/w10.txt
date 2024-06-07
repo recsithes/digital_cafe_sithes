@@ -1,0 +1,15 @@
+c=float(input())
+if(c>=100 and c<200):
+    r=c*1.2
+elif(c>=200 and c<400):
+    r=c*1.5
+elif(c>=400 and c<600):
+    r=c*1.8
+elif(c>=600):
+    r=c*2
+else:
+    r=100
+if(r>450):
+    print("{:.2f}".format(r*0.15))
+else:
+    print("{:.2f}".format(r))

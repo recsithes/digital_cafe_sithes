@@ -1,0 +1,16 @@
+n=int(input())
+li=list(map(int,input().split()))
+c=0
+for i in range(n-1):
+    for j in range(0,n-i-1):
+        if li[j] > li[j+1]:
+            c+=1
+            li[j],li[j+1]=li[j+1],li[j]
+# print(li)
+# # print(li,c)
+# a=max(li)
+# b=li.index(a)
+print("List is sorted in",c,"swaps.")
+# li.sort()
+# print(c)
+print("First Element:",li[0],"\nLast Element:",li[-1])
