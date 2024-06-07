@@ -1,0 +1,12 @@
+num=int(input())
+t=num
+c=len(str(num))
+s=0
+while(c):
+	s+=num%10 ** c
+	num//=10
+	c-=1
+if s==t:
+	print("yes")
+else:
+	print("NO")

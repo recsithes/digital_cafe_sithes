@@ -1,0 +1,7 @@
+import math
+num=int(input())
+n=num+1
+if n==int(maath.sqrt(n))**2:
+	print("Yes")
+else:
+	print("no")

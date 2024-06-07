@@ -1,0 +1,7 @@
+import math
+n=int(input())
+while(1):
+	n+=1
+	if(n==int(math.sqrt(n))**2):
+		print(n)
+		break

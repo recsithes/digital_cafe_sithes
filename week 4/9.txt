@@ -1,0 +1,12 @@
+n=int(input())
+l=list(srt(n))
+s=set(l)
+k=0
+for i in s:
+	if(l.count(i)>1):
+		s.remove(i)
+		print(len(s))
+		k=1
+		break
+if (k==1):
+	print(len(l))
