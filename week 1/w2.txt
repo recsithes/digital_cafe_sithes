@@ -1,0 +1,2 @@
+b=int(input())
+print(int(b+(b*0.4)+(b*0.2)))

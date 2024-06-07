@@ -1,0 +1,4 @@
+hours=int(input())
+a=abs((hours-500)/130)#50*10=500, 50+80
+print("weekdays",format(a+10,"0.2f"))
+print("weekend",format(a,"0.2f"))

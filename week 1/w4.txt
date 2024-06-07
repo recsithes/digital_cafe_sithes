@@ -1,0 +1,6 @@
+buy=int(input())
+rp=int(input())
+sell=int(input())
+gain=sell-(buy+rp)
+result=(gain/(buy+rp))*100
+print("{:.2f}"" ""is the gain percent.".format(result))

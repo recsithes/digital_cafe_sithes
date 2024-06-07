@@ -1,0 +1,2 @@
+num=float(input())
+print("{:.3f}".format(num**0.5))
